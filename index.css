@@ -1,0 +1,388 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+*{ 
+    
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header{ 
+    position: sticky;
+    top: 0px; 
+}
+header nav{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    width: 95vw;
+}
+
+ .conteiner{ 
+    display: flex;
+    justify-content: space-around;
+    /* margin-right:  650px; */
+    width: 25vw;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+.conteiner .logo{ 
+    width: 230px;
+    height: 66px;
+    top: 34px;
+    left: 49px;
+    border-radius: 123.5px;
+}
+.conteiner .blog{ 
+    width: Fixed(96px);
+    height: Hug(49px);
+    top: 44px;
+    left: 287px;
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.components{ 
+    /* width: 483px; */
+    width: 30vw;
+    /* background-color: magenta; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+    
+    
+}
+nav ul li{ 
+    display: inline-block;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 24px;
+}
+nav a{ 
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+    font-family: 'Roboto', sans-serif;
+}
+nav a:hover{ 
+    color: aquamarine;
+}
+.components button{ 
+    width: 223px;
+    height: 49px;
+    top: 43px;
+    left: 1168px;
+    border-radius: 23.5px;
+    font-size: 26px;
+    font-weight: 700;
+    border: none;
+    box-shadow: 1px 1px 3px grey;
+    color: white; 
+    background-color: rgb(24, 70, 85);
+    cursor: pointer;
+    transition:all 0.5s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.components button:hover{ 
+    background-color: rgba(24, 70, 85, 0.7);
+}
+.hero{ 
+    margin-left: 50px;
+    width: 1386px;
+    height: 742px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    flex-wrap: wrap;
+}
+.background{ 
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("Rectangle\ 31.jpg");
+    margin-left: 27px;
+    width: 100%;
+    height: 742px;
+    top: 155px;
+    left: 27px;
+    border-radius: 50px;
+}
+.hero h1{ 
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 67.5px;
+    text-align: left;
+    color: #184655;
+    
+}
+.heading
+{
+    Width:424px;
+    Height: 136px;
+    font-family: 'Poppins', sans-serif;   
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 67.5px;
+}
+.background-text{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    padding: 35px;
+}
+.search-bar{ 
+    display: flex;
+    width: 546px;
+    height:78.93px;
+}
+.search-bar input{ 
+    height: 78.93px;
+    width: 70%;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.search-bar button{ 
+    height: 78.93px;
+    width: 30%;
+    border: none;
+    background-color: rgb(24, 70, 85);
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    transition: all s ease;
+    font-family: 'Poppins', sans-serif;
+}
+.search-bar button:hover{ 
+    background-color: rgba(24, 70, 85, 0.8);
+}
+.background-text ul li{ 
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #53748c;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.background-image{ 
+    width: 474.99px;
+    height: 303.36px;
+    /* padding: 35px; */
+}
+.last-blog{ 
+    margin-left: 70px;
+    width: 1365px;
+    height: 512px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: none;
+    border:1px solid #dddddd;
+    border-radius: 40px;
+    background: linear-gradient(to top, #e8fcef, #f8fcf4, #fcfcf3);
+    flex-wrap: wrap;
+}
+
+.last-blog-image{ 
+    width: 671px;
+    height: 460px;
+    /* margin-left: 50px; */
+}
+.last-blog-image img{ 
+    border-radius: 15px;
+}
+.last-blog-description{ 
+    width: 520px;
+    display: flex;
+    flex-direction: column ;
+    font-family: 'Roboto', sans-serif;
+    /* width: 50%; */
+}
+.last-blog-heading{ 
+    font-weight: 500;
+    font-size: 34px;
+    line-height:49.22px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.last-blog-author-date{ 
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29.3px;
+    color: #6f6e6e;
+    font-family: 'Roboto', sans-serif;
+}
+.last-blog-desc{ 
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height:32.81px;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.more-blogs{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1365px;
+    height: 469px;
+    margin-left: 70px;
+    /* border: 1px solid black; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.more-blogs-blog-1{ 
+    width: 431.53px;
+    height: 469px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px grey;
+}
+.more-blogs-blog-1 img{ 
+    width: 431.53px;
+    height: 272.61px;
+    border-radius: 20px;
+}
+.more-blogs-blog-1-heading{ 
+    
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 29.3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.more-blogs-blog-1-author-date{ 
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px; 
+    line-height: 21.09px;
+    color: #6f6e6e;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+     /* padding: 10px; */
+
+}
+.more-blogs-blog-desc{ 
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21.28px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.more-blogs-blog-1-link{ 
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+.more-blogs-blog-1 a{ 
+    text-decoration: none;
+    color: #313949;
+    transition: all 0.5s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.more-blogs-blog-1 a:hover{ 
+    color: black;
+}
+.footer{ 
+    margin-left: 50px;
+    width: 1386px;
+    height: 742px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    flex-wrap: wrap;
+}
+.footer-background{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("Rectangle\ 31.jpg");
+    margin-left: 27px;
+    width: 100%;
+    height: 742px;
+    top: 155px;
+    left: 27px;
+    border-radius: 50px;
+}
+.footer-styling{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.footer-semi-heading{ 
+    font-weight:300;
+    font-size: 40px;
+    line-height: 46.88px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-heading{ 
+    font-weight:500;
+    font-size: 57px;
+    line-height: 66.8px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-text{ 
+    font-weight:500;
+    font-size: 40px;
+    line-height: 46.88px;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer button{ 
+    width: 222.86px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35.16px;
+    color: white;
+    background: linear-gradient(to right, #2c56aa, #3bb08b);
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    /* padding-top: 40px; */
+    font-family: 'Roboto', sans-serif;
+}
+.footer button:hover{ 
+    background: linear-gradient(to left,#2c56aa, #3bb08b);
+}
