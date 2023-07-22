@@ -10,6 +10,12 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+/* .main-frame{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
 header{ 
     position: sticky;
     top: 0px; 
@@ -91,6 +97,7 @@ nav a:hover{
 }
 .hero{ 
     margin-left: 50px;
+    margin-right: 50px;
     width: 1386px;
     height: 742px;
     display: flex;
@@ -186,6 +193,7 @@ nav a:hover{
 }
 .last-blog{ 
     margin-left: 70px;
+    margin-right: 70px;
     width: 1365px;
     height: 512px;
     margin-top: 45px;
@@ -250,6 +258,7 @@ nav a:hover{
     width: 1365px;
     height: 469px;
     margin-left: 70px;
+    margin-right: 70px;
     /* border: 1px solid black; */
     padding-top: 40px;
     padding-bottom: 40px;
@@ -322,6 +331,7 @@ nav a:hover{
 }
 .footer{ 
     margin-left: 50px;
+    margin-right: 50px;
     width: 1386px;
     height: 742px;
     display: flex;
