@@ -396,3 +396,9 @@ nav a:hover{
 .footer button:hover{ 
     background: linear-gradient(to left,#2c56aa, #3bb08b);
 }
+@media screen and(max-width:900px) {
+    .more-blogs{ 
+        display: flex;
+        flex-direction: column;
+    }
+}
